@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .container {
@@ -11,13 +11,13 @@
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-color: lightseagreen;
+    background-color: aquamarine;
 }
 
 #calcTemp {
     padding: 29px 67px;
     min-height: 300px;
-    background-color: skyblue;
+    background-color: paleturquoise;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
@@ -51,16 +51,14 @@ label {
 
 #submit {
     width: 100px;
-    border-radius: 5px;
-    margin: 30px 0 20px 0;
+    border-radius: 3px;
+    margin: 30px 0 30px 0;
     font-size: 18px;
-    background-color:pink(218 229 220);
-    padding: 7px;
-    transition: all 0.5s ease;
+    padding: 10px;
 }
 
 #submit:hover{
-    background-color: blueviolet;
+    background-color:rgb(141, 217, 174);
     cursor: pointer;
 }
 
