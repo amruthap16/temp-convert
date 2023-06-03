@@ -1,4 +1,4 @@
-const calculateTemp = () => {
+const calcTemp = () => {
     const inputTemp = document.getElementById('temp').value;
 
     const tempSelected = document.getElementById('temp_diff');
